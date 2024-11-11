@@ -242,7 +242,7 @@ exports.downloadPDF = async (req, res, next) => {
     }
 
     // Prepare image URLs
-    const logoUrl = `${process.env.REACT_APP_API_URL}/uploads/BMI/logo.png`;
+    const logoUrl = `${process.env.REACT_APP_API_URL}/uploads/BMI/logo-new.png`;
     console.log(logoUrl)
 
     const qrUploadDir = path.join(__basedir, 'uploads/BMI');
